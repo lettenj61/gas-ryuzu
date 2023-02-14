@@ -1,0 +1,22 @@
+{
+  "name": "gas-ryuzu",
+  "version": "0.1.0",
+  "description": "Run triggers for period of time in Google Apps Script",
+  "keywords": [],
+  "scripts": {
+    "build": "esbuild --platform=neutral --outdir=dist src/ryuzu.ts"
+  },
+  "author": {
+    "name": "Hideyuki Ueno (lettenj61)",
+    "email": "letitscalable+npm@gmail.com",
+    "url": "https://github.com/lettenj61"
+  },
+  "license": "(MIT OR Apache-2.0)",
+  "devDependencies": {
+    "@google/clasp": "^2.4.2",
+    "@tsconfig/recommended": "^1.0.2",
+    "@types/google-apps-script": "^1.0.57",
+    "esbuild": "^0.17.8",
+    "typescript": "^4.9.5"
+  }
+}
